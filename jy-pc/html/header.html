@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<title>家有在线</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="http://pc.t.jiayou9.com/img/logo1.png" mce_href="http://pc.t.jiayou9.com/img/logo1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="http://pc.t.jiayou9.com/css/quanju.css" />
+</head>
+<body>
+	<div id="home-top">
+        <div>
+            <p class="left">
+                欢迎来到家有在线官方商城！
+                <span>请登录</span>
+                <span>快速注册</span>
+            </p>
+            <ul class="right">
+                <li class="rightLi">
+                    <p>我的订单<i class="jy-iconfont down-icon"></i></p>
+                    <div class="secleck">
+                        <ul>
+                            <li>订单1</li>
+                            <li>订单2</li>
+                            <li>订单3</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="rightLi">
+                    <p>个人中心</p>
+
+                </li>
+                <li class="rightLi">
+                    <p><a href="http://b.t.jiayou9.com/jicai.html">企业采购</a></p>
+                </li>
+                <li class="rightLi">
+
+                    <p><i class="jy-iconfont phone-icon"></i>手机家有在线<i class="jy-iconfont down-icon"></i></p>
+                    <div class="secleck">
+                        <ul>
+                            <li>ioc二维码</li>
+                            <li>安卓二维码</li>
+                        </ul>
+                    </div>
+                </li>
+                  <li class="rightLi">
+                    <p>帮助中心</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header id="home-header">
+        <div class="header">
+            <h1><img src="http://pc.t.jiayou9.com/img/logo.png" alt="家有在线" /></h1>
+            <form  id="rfFrame" name="rfFrame" src="about:blank">
+                <div class="input">
+                    <input type="text" placeholder="在此输入想输入的内容" />
+                    <button  type="button">搜索</button>
+                    <div class="xiala">
+                        <ul>
+                            <li>模糊搜索1</li>
+                            <li>模糊搜索2</li>
+                            <li>模糊搜索3</li>
+                            <li>模糊搜索4</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sousuo">
+                    <ul>
+                        <li>食用油</li>
+                        <li>坚果</li>
+                        <li class="noClor">辣椒面</li>
+                        <li class="noClor">调味品</li>
+                        <li>干货</li>
+                        <li>饮品</li>
+                        <li>豆腐干</li>
+                    </ul>
+                </div>
+            </form>
+            <div class="shop">
+                <p>我的购物车<i class="jy-iconfont shop-icon"></i><span class="number">99</span></p>
+            </div>
+        </div>
+</body>
+<script src="http://pc.t.jiayou9.com/js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		$(document).ready(function() {
+			//	最顶部的鼠标滑过事件
+			$("#home-top .right .rightLi").hover(function(m,n){
+				$(this).find("p").css("color","blue");
+				$(this).find(".secleck").css("display","block");
+				$(this).find(".down-icon").removeClass("down-icon").addClass("up-icon");
+			},function(){
+				$(this).find("p").css("color","").css('text-decoration','none');
+				$(this).find(".secleck").css("display","none");
+				$(this).find(".up-icon").removeClass("up-icon").addClass("down-icon");
+				
+			});
+			//	===================头部输入框的点击事件(输入框获取焦点时触发的事件和失去焦点时触发的事件)
+//			$("#home-header input").focus(function(){
+//				$(this).siblings(".xiala").show().find("li").each(function(){
+//					$(this).hover(function(){
+//						$(this).css({"background":"#95c357","color":"#fff"});
+//					},function(){
+//						$(this).css({"background":"#fff","color":"#000"});
+//					})
+//					$(this).click(function(){
+//						var text = ($(this).text());
+//						$("#home-header input").val(text);
+//						setTimeout(function(){
+//							$(".xiala").hide();
+//						},100)
+//					})
+//				});
+//			}).focusout(function(){
+//				setTimeout(function(){
+//					console.log(0);
+//					$(".xiala").hide();
+//				},200)
+//				
+//			});
+			
+			$.ajax({
+				type:"get",
+				url:"http://p1.t.jiayou9.com/index.php/hotsearch?callback=1",
+				dataType:"jsonp",
+				async:true,
+				success:function(res){
+					var data = res.hotsearch;
+					console.log(data);
+				}
+			});
+			// 搜索按钮点击事件
+			$("#home-header button").click(function(){
+				// 获取到输入框的内容
+				var val = $("#home-header input").val();
+				console.log(val);
+				// 将输入框的内容拼接到搜索地址上
+				window.location.href = "https://s.t.jiayou9.com/goodsSearch/goods/search.php?q=" + val;
+			});
+			
+			$(".sousuo ul li").click(function(){
+				var text = $(this).text();
+				console.log(text);
+				window.location.href = "https://s.t.jiayou9.com/goodsSearch/goods/search.php?q=" + text;
+			})
+			
+			
+			
+			
+			
+		})
+	</script>
+</html>

@@ -1,0 +1,220 @@
+#vue-main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+#vue-main .vue-left {
+  width: 120px;
+  border: 1px solid #ccc;
+  padding-bottom: 20px;
+  float: left;
+}
+#vue-main .vue-left ul li {
+  border-bottom: 1px solid #ccc;
+  line-height: 30px;
+  font-size: 12px;
+}
+#vue-main .vue-left ul li p {
+  padding-left: 14px;
+}
+#vue-main .vue-left ul li p a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#vue-main .vue-left ul li .left-li-one {
+  font-size: 16px;
+}
+#vue-main .vue-left ul li p:hover {
+  color: #95c357;
+}
+#vue-main .vue-left ul li .left-li-one:hover {
+  color: #333;
+  cursor: default;
+}
+#vue-main .vue-left ul .bgstyle {
+  background: #7BBB49;
+}
+#vue-main .vue-left ul .bgstyle a {
+  color: #fff;
+}
+#vue-main .vue-left ul li:last-of-type {
+  border-bottom: 0;
+}
+#vue-main .vue-right {
+  width: 1062px;
+  min-height: 700px;
+  float: right;
+  font-size: 14px;
+}
+#vue-main .vue-right .right-title {
+  border: 1px solid #ccc;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 30px 0 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+#vue-main .vue-right .right-title .right {
+  float: right;
+  font-weight: 100;
+  font-size: 14px;
+}
+#vue-main .vue-right .youhui-content .content-top {
+  border: 1px solid #ccc;
+  border-bottom: 0;
+  width: 100%;
+  height: 48px;
+  background: #f4f8fb;
+  font-size: 14px;
+  padding: 0 30px 0 16px;
+}
+#vue-main .vue-right .youhui-content .content-top li {
+  float: left;
+  height: 22px;
+  line-height: 22px;
+  margin-top: 12px;
+  margin-right: 30px;
+  padding: 0 5px;
+  border-bottom: 2px solid transparent;
+}
+#vue-main .vue-right .youhui-content .content-top .border-show {
+  border-bottom: 2px solid #aad373;
+  color: #aad373;
+}
+#vue-main .vue-right .youhui-content .content-top .xiala {
+  float: right;
+  font-size: 20px;
+}
+#vue-main .vue-right .youhui-content .youhuiquan {
+  padding: 40px 0 40px 25px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li {
+  width: 230px;
+  float: left;
+  margin: 12px 25px 12px 0;
+  background: #f9f9f9;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-top {
+  height: 196px;
+  background: url(../img/youhui-bg.jpg) no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-top .prcie {
+  font-size: 26px;
+  padding-top: 26px;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-top .prcie span {
+  font-size: 50px;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-top .yhq-shuoming {
+  font-size: 20px;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-top .date {
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  font-size: 16px;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-btm {
+  height: 210px;
+  text-align: center;
+  position: relative;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-btm button {
+  width: 116px;
+  height: 34px;
+  border-radius: 18px;
+  border: 1px solid #aad373;
+  color: #aad373;
+  margin-top: 20px;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-btm p {
+  padding: 0 16px;
+  text-align: left;
+  line-height: 38px;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-btm p span {
+  color: #999;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-btm .xiangxi {
+  height: 38px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  color: #999;
+}
+#vue-main .vue-right .youhui-content .youhuiquan li .yhq-btm .xiangxi i {
+  float: right;
+}
+#vue-main .vue-right .youhui-content .content-btm {
+  padding: 20px 0;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  margin: 30px 0;
+}
+#vue-main .vue-right .youhui-content .content-btm li {
+  float: left;
+  height: 140px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  width: 353px;
+  font-size: 20px;
+  color: #666;
+}
+#vue-main .vue-right .youhui-content .content-btm li i {
+  font-size: 60px;
+  color: #999;
+}
+#vue-main .vue-right .youhui-content .content-btm .last-li {
+  border: 0;
+}
+#vue-main .vue-right .right-tuijian {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+#vue-main .vue-right .right-tuijian .tuijian-top {
+  height: 46px;
+  background: #f4f8fb;
+  padding: 0 30px 0 16px;
+  line-height: 46px;
+  border-bottom: 1px solid #ccc;
+}
+#vue-main .vue-right .right-tuijian .tuijian-top .allOrder {
+  float: right;
+}
+#vue-main .vue-right .right-tuijian .tuijian-goods {
+  overflow: hidden;
+}
+#vue-main .vue-right .right-tuijian .tuijian-goods li {
+  float: left;
+  width: 200px;
+  height: 260px;
+  margin: 5px;
+  text-align: center;
+}
+#vue-main .vue-right .right-tuijian .tuijian-goods li img {
+  width: 160px;
+  height: 160px;
+  margin: 20px 0;
+}
+#vue-main .vue-right .right-tuijian .tuijian-goods li .goods-name {
+  width: 80%;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+#vue-main .vue-right .right-tuijian .tuijian-goods li .goods-price {
+  color: #e20d00;
+  padding-left: 16px;
+  text-align: left;
+}

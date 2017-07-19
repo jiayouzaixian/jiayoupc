@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>家有在线</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../img/logo1.png" mce_href="../img/logo1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/quanju.css" />
+    <link rel="stylesheet" href="../css/zhuce.css" />
+    <!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"">-->
+</head>
+	<body>
+		<header id="zhuce-header">
+			<img src="../img/logo.png" alt="" />
+			<p class="welcome">欢迎注册</p>
+			<span class="yiyou">< 已有账号登录</span>
+		</header>
+		<section id="zhuce-main">
+			<ul class="main-shezhi">
+				<li><i>1</i><span>设置登录名</span></li>
+				<li><i>2</i><span>设置账户信息</span></li>
+				<li><i>3</i><span>设置企业信息</span></li>
+				<li><i>4</i><span>注册成功</span></li>
+			</ul>
+			<article class="main-denglu li-article">
+				<ul class="gonggongzhuce">
+					<li class="zhuceOne">
+						<span class="left"></span>
+						<div class="right">
+							<p class="jinggao">
+								服务须知：审核时间为两个工作日，遇法定节假日顺延。<br />
+								如有疑问，请拨打服务电话：010-5399-8-7335
+							</p>
+						</div>
+					</li>
+					<li class="zhuceTwo">
+						<span class="left">单位名称：</span>
+						<div class="right">
+							<input type="text" placeholder="请填写营业执照上的单位名称"  class="input-text "/>
+							<span class="zhuce-error">此单位名称已注册</span>
+							<span class="val-length">单位名不能为空</span>
+							<span class="zhuce-correct"><img src="../img/duihao.png" alt="" /></span>
+						</div>
+					</li>
+					<li class="zhuceThree">
+						<span class="left">手机号码：</span>
+						<div class="right">
+							<input type="text" placeholder="请填写真实的手机号码"  class="input-text"/>
+							<span class="zhuce-error">手机号码格式不正确，请重新输入</span>
+							<span class="zhuce-correct"><img src="../img/duihao.png" alt="" /></span>
+						</div>
+					</li>
+					<li class="zhuceFour">
+						<span class="left">短信验证码：</span>
+						<div class="right">
+							<input type="text" placeholder="请填写短信验证码" id="duanxin" class="input-text"/>
+							<button class="abtainDuanxin">获取短信验证码</button>
+							<span class="zhuce-error">短信验证码错误或已失效，请重新输入</span>
+						</div>	
+					</li>
+					<li class="zhuceFive">
+						<span class="left"></span>
+						<div class="right">
+							<p class="checkbox">
+								<input name="Fruit" type="checkbox" value="" class="checked"/>
+							</p>
+							<p class="xieyi">我已阅读并同意 <span>《家有在线网络服务协议》</span></p>
+						</div>
+					</li>
+					<li class="zhuceSix">
+						<span class="left"></span>
+						<div class="right">
+							<button class="right-btn">立即注册</button>
+						</div>
+					</li>
+					<li class="zhuceSeven">
+						<span class="left"></span>
+						<div class="right">
+							普通用户注册     >
+						</div>
+					</li>
+				</ul>
+			</article>
+			<article class="main-zhanghu li-article">
+				<ul class="gonggongzhuce">
+						
+					<li class="zhuceFour">
+						<span class="left">邮箱地址：</span>
+						<div class="right">
+							<input type="text" placeholder="建议填写企业邮箱" id="duanxin" class="input-text"/>
+							<button class="abtainDuanxin">获取邮箱验证码</button>
+							<span class="zhuce-error">邮箱格式不正确，请重新输入</span>
+							<span class="zhuce-correct" id="zhuce-correct"><img src="../img/duihao.png" alt="" /></span>
+						</div>
+					</li>
+					<li class="zhuceTwo">
+						<span class="left">邮箱验证码：</span>
+						<div class="right">
+							<input type="text" placeholder="请填写邮箱验证码"  class="input-text"/>
+							<span class="zhuce-error">请输入6位数字验证码</span>
+							<span class="zhuce-correct"><img src="../img/duihao.png" alt="" /></span>
+						</div>
+					</li>
+					<li class="zhuceThree">
+						<span class="left">设置密码：</span>
+						<div class="right">
+							<input type="text" placeholder="请设置账户密码"  class="input-text"/>
+							<span class="zhuce-error">密码必须6-14位数</span>
+							<span class="zhuce-correct"><img src="../img/duihao.png" alt="" /></span>
+						</div>
+					</li>
+					<li class="zhuceSix">
+						<span class="left"></span>
+						<div class="right">
+							<button class="right-btn">下一步</button>
+						</div>
+					</li>
+					<li class="zhuceSeven">
+						<span class="left"></span>
+						<div class="right">
+							上述方法无法注册？家有小妹来帮助你：拨打客服热线：010-53397335
+						</div>
+					</li>
+				</ul>
+			</article>
+			<article class="main-qiye li-article">
+				<ul class="gonggongzhuce">
+						
+					<li class="zhuceFour">
+						<span class="left">单位地址：</span>
+						<div class="right">
+							<input type="text" placeholder="建议填写企业邮箱" id="duanxin" class="input-text"/>
+							<button class="abtainDuanxin">获取邮箱验证码</button>
+							<span class="zhuce-error">邮箱格式不正确，请重新输入</span>
+							<span class="zhuce-correct"><img src="../img/duihao.png" alt="" /></span>
+						</div>
+					</li>
+					<li class="zhuceTwo">
+						<span class="left">联系人姓名：</span>
+						<div class="right">
+							<input type="text" placeholder="请输入联系人姓名"  class="input-text"/>
+							<span class="zhuce-error">请输入6位数字验证码</span>
+							<span class="zhuce-correct"><img src="../img/duihao.png" alt="" /></span>
+						</div>
+					</li>
+					<li class="zhuceThree">
+						<span class="left">固定电话：</span>
+						<div class="right">
+							<input type="text" placeholder="区号" class="input-text input-phoneOne"/>
+							<input type="text" placeholder="座机号" class="input-text input-phoneTwo"/>
+							<input type="text" placeholder="分机号" class="input-text input-phoneThree"/>
+							<span class="zhuce-error">密码必须6-14位数</span>
+							<span class="zhuce-correct"><img src="../img/duihao.png" alt="" /></span>
+						</div>
+					</li>
+					<li class="zhuceFour">
+						<span class="left">公司行业：</span>
+						<div class="right">
+							<input type="text" placeholder="建议填写企业邮箱" id="duanxin" class="input-text"/>
+							<button class="abtainDuanxin">获取邮箱验证码</button>
+							<span class="zhuce-error">邮箱格式不正确，请重新输入</span>
+							<span class="zhuce-correct"><img src="../img/duihao.png" alt="" /></span>
+						</div>
+					</li>
+					<li class="zhuceSix">
+						<span class="left"></span>
+						<div class="right">
+							<button class="right-btn">下一步</button>
+						</div>
+					</li>
+					<li class="zhuceSeven">
+						<span class="left"></span>
+						<div class="right">
+							上述方法无法注册？家有小妹来帮助你：拨打客服热线：010-53397335
+						</div>
+					</li>
+				</ul>
+			</article>
+			<article class="main-good li-article">
+				<p class="newyonghu">新用户注册</p>
+				<div class="zhuce-good">
+					<p>恭喜您注册成功！公司资料正在审核，请您耐心等待！</p>
+					<p>您可以去登陆挑选您心仪的商品</p>
+					<button class="good-btn">去登陆</button>
+				</div>
+			</article>
+		</section>
+		<footer id="zhuce-footer">
+			<div class="footerUl">
+				<ul>
+					<li><a href="">关于我们</a></li>
+					<li><a href="">我们的团队</a></li>
+					<li><a href="">诚招英才</a></li>
+					<li><a href="">广告服务</a></li>
+					<li><a href="">宝贵意见</a></li>
+					<li><a href="">联系我们</a></li>
+				</ul>
+				<ul>
+					<li><a href="">黔ICP备15015555号</a></li>
+					<li><a href="">合字B1.B2-20130004</a></li>
+					<li><a href="">营业执照</a></li>
+					<li><a href="">互联网药品信息服务资格证</a></li>
+					<li><a href="">互联网药品信息服务资格证</a></li>
+				</ul>
+				<span><a href="">jciddco家有在线网上超市2007-2015，All Right Reserved</a></span>
+			</div>
+			
+		</footer>
+	</body>
+	<script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/zhuce.js"></script>
+</html>

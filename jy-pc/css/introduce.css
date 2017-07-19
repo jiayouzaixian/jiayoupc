@@ -1,0 +1,279 @@
+#vue_main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+#vue_main #tip {
+  font-size: 12px;
+  color: #808080;
+  margin-bottom: 30px;
+}
+#vue_main .vue_left {
+  width: 170px;
+  border: 1px solid #eaeaea;
+  float: left;
+  height: 1267px;
+  font-size: 12px;
+}
+#vue_main .vue_left dl dt {
+  height: 42px;
+  line-height: 42px;
+  padding-left: 16px;
+  border-bottom: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
+  background: #f8f8f8;
+}
+#vue_main .vue_left dl dt:first-of-type {
+  border-top: none;
+}
+#vue_main .vue_left dl dd {
+  height: 39px;
+  line-height: 39px;
+  padding-left: 16px;
+}
+#vue_main .vue_left dl dd a:hover {
+  color: #f00;
+}
+#vue_main .vue_right {
+  width: 990px;
+  height: 1267px;
+  float: right;
+  overflow: hidden;
+}
+#vue_main .vue_right #right1_1,
+#vue_main .vue_right #right1_2,
+#vue_main .vue_right #right1_3,
+#vue_main .vue_right #right1_4,
+#vue_main .vue_right #right2_1,
+#vue_main .vue_right #right2_2,
+#vue_main .vue_right #right2_3,
+#vue_main .vue_right #right2_4,
+#vue_main .vue_right #right3_1,
+#vue_main .vue_right #right3_2,
+#vue_main .vue_right #right3_3,
+#vue_main .vue_right #right3_4,
+#vue_main .vue_right #right4_1,
+#vue_main .vue_right #right4_2,
+#vue_main .vue_right #right4_3,
+#vue_main .vue_right #right4_4,
+#vue_main .vue_right #right5_1,
+#vue_main .vue_right #right5_2,
+#vue_main .vue_right #right5_3,
+#vue_main .vue_right #right5_4,
+#vue_main .vue_right #right6_1,
+#vue_main .vue_right #right6_2,
+#vue_main .vue_right #right6_3,
+#vue_main .vue_right #right6_4,
+#vue_main .vue_right #right6_5,
+#vue_main .vue_right #right6_6 {
+  width: 990px;
+  height: 1267px;
+  font-size: 12px;
+}
+#vue_main .vue_right #right1_1 h3,
+#vue_main .vue_right #right1_2 h3,
+#vue_main .vue_right #right1_3 h3,
+#vue_main .vue_right #right1_4 h3,
+#vue_main .vue_right #right2_1 h3,
+#vue_main .vue_right #right2_2 h3,
+#vue_main .vue_right #right2_3 h3,
+#vue_main .vue_right #right2_4 h3,
+#vue_main .vue_right #right3_1 h3,
+#vue_main .vue_right #right3_2 h3,
+#vue_main .vue_right #right3_3 h3,
+#vue_main .vue_right #right3_4 h3,
+#vue_main .vue_right #right4_1 h3,
+#vue_main .vue_right #right4_2 h3,
+#vue_main .vue_right #right4_3 h3,
+#vue_main .vue_right #right4_4 h3,
+#vue_main .vue_right #right5_1 h3,
+#vue_main .vue_right #right5_2 h3,
+#vue_main .vue_right #right5_3 h3,
+#vue_main .vue_right #right5_4 h3,
+#vue_main .vue_right #right6_1 h3,
+#vue_main .vue_right #right6_2 h3,
+#vue_main .vue_right #right6_3 h3,
+#vue_main .vue_right #right6_4 h3,
+#vue_main .vue_right #right6_5 h3,
+#vue_main .vue_right #right6_6 h3 {
+  height: 26px;
+  border-bottom: 1px solid #ccc;
+  font-size: 13px;
+  color: #000;
+  font-weight: bold;
+}
+#vue_main .vue_right #right1_1 main p {
+  color: #000;
+  height: 61px;
+  line-height: 61px;
+}
+#vue_main .vue_right #right1_2 main,
+#vue_main .vue_right #right1_3 main,
+#vue_main .vue_right #right1_4 main,
+#vue_main .vue_right #right2_3 main,
+#vue_main .vue_right #right2_4 main,
+#vue_main .vue_right #right3_3 main,
+#vue_main .vue_right #right3_4 main,
+#vue_main .vue_right #right5_4 main,
+#vue_main .vue_right #right6_4 main {
+  margin-top: 6px;
+  color: #000;
+  line-height: 20px;
+}
+#vue_main .vue_right #right1_2 main ul li,
+#vue_main .vue_right #right1_3 main ul li,
+#vue_main .vue_right #right1_4 main ul li,
+#vue_main .vue_right #right2_3 main ul li,
+#vue_main .vue_right #right2_4 main ul li,
+#vue_main .vue_right #right3_3 main ul li,
+#vue_main .vue_right #right3_4 main ul li,
+#vue_main .vue_right #right5_4 main ul li,
+#vue_main .vue_right #right6_4 main ul li {
+  margin-bottom: 20px;
+}
+#vue_main .vue_right #right1_2 main ul li h4,
+#vue_main .vue_right #right1_3 main ul li h4,
+#vue_main .vue_right #right1_4 main ul li h4,
+#vue_main .vue_right #right2_3 main ul li h4,
+#vue_main .vue_right #right2_4 main ul li h4,
+#vue_main .vue_right #right3_3 main ul li h4,
+#vue_main .vue_right #right3_4 main ul li h4,
+#vue_main .vue_right #right5_4 main ul li h4,
+#vue_main .vue_right #right6_4 main ul li h4 {
+  font-weight: bold;
+}
+#vue_main .vue_right #right1_2 main ul li p,
+#vue_main .vue_right #right1_3 main ul li p,
+#vue_main .vue_right #right1_4 main ul li p,
+#vue_main .vue_right #right2_3 main ul li p,
+#vue_main .vue_right #right2_4 main ul li p,
+#vue_main .vue_right #right3_3 main ul li p,
+#vue_main .vue_right #right3_4 main ul li p,
+#vue_main .vue_right #right5_4 main ul li p,
+#vue_main .vue_right #right6_4 main ul li p {
+  text-indent: 1.5em;
+}
+#vue_main .vue_right #right1_4 main ul li div {
+  text-indent: 3em;
+}
+#vue_main .vue_right #right1_4 main ul li p {
+  text-indent: 4.5em;
+}
+#vue_main .vue_right #right2_1 main {
+  line-height: 20px;
+  margin-top: 6px;
+}
+#vue_main .vue_right #right2_1 main div {
+  text-align: center;
+}
+#vue_main .vue_right #right2_2 main,
+#vue_main .vue_right #right3_2 main,
+#vue_main .vue_right #right4_3 main,
+#vue_main .vue_right #right5_1 main,
+#vue_main .vue_right #right5_2 main,
+#vue_main .vue_right #right5_3 main,
+#vue_main .vue_right #right6_1 main,
+#vue_main .vue_right #right6_2 main,
+#vue_main .vue_right #right6_3 main,
+#vue_main .vue_right #right6_5 main,
+#vue_main .vue_right #right6_6 main {
+  line-height: 20px;
+  margin-top: 6px;
+}
+#vue_main .vue_right #right2_2 main div,
+#vue_main .vue_right #right3_2 main div,
+#vue_main .vue_right #right4_3 main div,
+#vue_main .vue_right #right5_1 main div,
+#vue_main .vue_right #right5_2 main div,
+#vue_main .vue_right #right5_3 main div,
+#vue_main .vue_right #right6_1 main div,
+#vue_main .vue_right #right6_2 main div,
+#vue_main .vue_right #right6_3 main div,
+#vue_main .vue_right #right6_5 main div,
+#vue_main .vue_right #right6_6 main div {
+  text-indent: 2em;
+}
+#vue_main .vue_right #right3_1 main,
+#vue_main .vue_right #right4_1 main,
+#vue_main .vue_right #right4_2 main,
+#vue_main .vue_right #right4_4 main {
+  margin-top: 6px;
+  color: #000;
+  line-height: 20px;
+}
+#vue_main .vue_right #right3_1 main ul li,
+#vue_main .vue_right #right4_1 main ul li,
+#vue_main .vue_right #right4_2 main ul li,
+#vue_main .vue_right #right4_4 main ul li {
+  margin-bottom: 20px;
+}
+#vue_main .vue_right #right3_1 main ul li h4,
+#vue_main .vue_right #right4_1 main ul li h4,
+#vue_main .vue_right #right4_2 main ul li h4,
+#vue_main .vue_right #right4_4 main ul li h4 {
+  text-align: center;
+  font-weight: bold;
+}
+#vue_main .vue_right #right3_1 main ul li div,
+#vue_main .vue_right #right4_1 main ul li div,
+#vue_main .vue_right #right4_2 main ul li div,
+#vue_main .vue_right #right4_4 main ul li div {
+  text-indent: 2em;
+}
+#vue_main .vue_right #right3_1 main ul li p,
+#vue_main .vue_right #right4_1 main ul li p,
+#vue_main .vue_right #right4_2 main ul li p,
+#vue_main .vue_right #right4_4 main ul li p {
+  text-indent: 4em;
+}
+#vue_main .vue_right #right3_1 main ul li table,
+#vue_main .vue_right #right4_1 main ul li table,
+#vue_main .vue_right #right4_2 main ul li table,
+#vue_main .vue_right #right4_4 main ul li table {
+  width: 100%;
+  text-align: center;
+}
+#vue_main .vue_right #right3_1 main ul li table tr td,
+#vue_main .vue_right #right4_1 main ul li table tr td,
+#vue_main .vue_right #right4_2 main ul li table tr td,
+#vue_main .vue_right #right4_4 main ul li table tr td {
+  width: 25%;
+}
+#vue_main .vue_right #right3_2 main div,
+#vue_main .vue_right #right4_3 main div,
+#vue_main .vue_right #right5_1 main div,
+#vue_main .vue_right #right5_2 main div,
+#vue_main .vue_right #right5_3 main div,
+#vue_main .vue_right #right6_1 main div,
+#vue_main .vue_right #right6_2 main div,
+#vue_main .vue_right #right6_3 main div,
+#vue_main .vue_right #right6_5 main div {
+  text-indent: inherit;
+}
+#vue_main .vue_right #right3_4 main ul li {
+  margin-bottom: 0;
+}
+#vue_main .vue_right #right3_4 main ul li h4 {
+  background: #deedf9;
+}
+#vue_main .vue_right #right4_1 main ul li h4,
+#vue_main .vue_right #right4_2 main ul li h4,
+#vue_main .vue_right #right4_4 main ul li h4 {
+  text-align: left;
+  font-weight: bold;
+}
+#vue_main .vue_right #right4_1 main ul li h4 span,
+#vue_main .vue_right #right4_2 main ul li h4 span,
+#vue_main .vue_right #right4_4 main ul li h4 span {
+  font-weight: normal;
+}
+#vue_main .vue_right #right6_2 main p {
+  margin-top: 20px;
+  line-height: 20px;
+}
+#vue_main .vue_right #right6_6 main div {
+  line-height: 30px;
+  margin-bottom: 20px;
+}

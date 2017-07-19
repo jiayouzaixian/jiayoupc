@@ -1,0 +1,202 @@
+
+// 介绍的主体部分
+#vue_main{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    ul{
+        #tip{
+            font-size: 12px;
+            color: #808080;
+            height: 51px;
+            line-height: 51px;
+            font-size: 14px;
+            color: #333333;
+            border-bottom: 1px solid #eeeeee;
+        }
+        #choose{
+            height: 33px;
+            line-height: 33px;
+            font-size: 12px;
+            border-bottom: 1px solid #eeeeee;
+            overflow: hidden;
+            h3{
+                color: #333333;
+                float: left;
+                width: 110px;
+            }
+            p{
+                color: #666666;
+                float: left;
+                width: 135px;
+            }
+        }
+        #btn{
+            height: 35px;
+            line-height: 35px;
+            font-size: 12px;
+            border-bottom: 1px solid #eeeeee;
+            overflow: hidden;
+            background: #f4f8fb;
+            position: relative;
+            ul{
+                float: left;
+                overflow: hidden;
+                li{
+                    float: left;
+                    width: 88px;
+                    height: 34px;
+                    text-align: center;
+                    color: #7e7f81;
+                }
+                li:first-of-type{
+                    background: #d1311b;
+                    color: #fff;
+                }
+            }
+            .search{
+                overflow: hidden;
+                position: absolute;
+                top: 5px;
+                right: 235px;
+                input{
+                    float: left;
+                    width: 140px;
+                    height: 24px;
+                    border: 1px solid #e5e5e5;
+                }
+                span{
+                    float: left;
+                    display: block;
+                    width: 49px;
+                    height: 24px;
+                    text-align: center;
+                    border: 1px solid #e5e5e5;
+                    border-left: none;
+                    line-height: 24px;
+                    font-size: 12px;
+                    color: #5b5b5d;
+                }
+            }
+        }
+        #radio{
+            height: 34px;
+            line-height: 34px;
+            font-size: 12px;
+            color: #5c5c5c;
+            border-bottom: 1px solid #eeeeee;
+            input{
+                vertical-align: middle;
+            }
+        }
+        
+    }
+    // 主体商品列表
+    main{
+        ul{
+            overflow: hidden;
+            li:nth-of-type(5n + 1),li:nth-of-type(5n + 2),li:nth-of-type(5n + 3),li:nth-of-type(5n + 4){
+                margin-right: 25px;
+            }
+            li{
+                width: 220px;
+                height: 376px;
+                margin-top: 18px;
+                margin-bottom: 10px;
+                float: left;
+                section{
+                    border: 1px solid #eeeeee;
+                    height: 340px;
+                    .img{
+                        width: 218px;
+                        height: 220px;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                    .price{
+                        font-size: 15px;
+                        color: #ff0101;
+                        margin-top: 6px;
+                        height: 35px;
+                        line-height: 35px;
+                        margin-left: 15px;
+                    }
+                    .goods_name{
+                        font-size: 12px;
+                        color: #7d7d7d;
+                        line-height: 18px;
+                        margin: 0 8px;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        overflow: hidden;
+                    }
+                    .pinjia{
+                        height: 40px;
+                        line-height: 40px;
+                        margin: 0 8px;
+                        margin-top: 4px;
+                        font-size: 12px;
+                        overflow: hidden;
+                        .left{
+                            float: left;
+                            color: #9a9a9a;
+                        }
+                        .right{
+                            float: right;
+                            color: #83b738;
+                        }
+                    }
+                    
+                }
+                .operation{
+                    height: 34px;
+                    line-height: 34px;
+                    background: #f4f8fb;
+                    padding: 0 8px;
+                    overflow: hidden;
+                    display: none;
+                    .num{
+                        float: left;
+                        font-size: 9px;
+                        width: 70px;
+                        background: #fff;
+                        height: 24px;
+                        line-height: 20px;
+                        display: flex;
+                        text-align: center;
+                        border: 1px solid #eeeeee;
+                        color: #8c8c8c;
+                        margin-top: 5px;
+                        span{
+                            display: block;
+                            flex: 1;
+                            vertical-align: middle;
+                        }
+                        .number{
+                            border-left: 1px solid #eeeeee;
+                            border-right: 1px solid #eeeeee;
+                        }
+                    }
+                    .buy{
+                        float: right;
+                        font-size: 12px;
+                        width: 88px;
+                        height: 24px;
+                        line-height: 24px;
+                        color: #fff;
+                        background: #84b83a;
+                        text-align: center;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+

@@ -1,0 +1,272 @@
+//个人中心的主体部分
+#vue-main{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    padding-bottom: 30px;
+    .vue-left{
+        width: 120px;
+        border: 1px solid #ccc;
+        padding-bottom: 20px;
+        float: left;
+        ul{
+            li{
+                border-bottom: 1px solid #ccc;
+                line-height: 30px;
+                font-size: 12px;
+                p{
+                    padding-left: 14px;
+                    a{
+                        display: inline-block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }    
+                .left-li-one{
+                    font-size: 16px;
+                }
+                p:hover{
+                    color: #95c357;
+                }
+                .left-li-one:hover{
+                    color: #333;
+                    cursor: default;
+                }
+            }
+            .bgstyle{
+                background: #7BBB49;
+                a{
+                    color: #fff;
+                }
+            }
+            li:last-of-type{
+                border-bottom: 0;
+            }
+        }
+    }
+    .vue-right{
+        width: 1062px;
+        min-height: 700px;
+        float: right;
+        font-size: 14px;
+//======================= 右侧样式
+        .right-title{
+            border: 1px solid #ccc;
+            height: 46px;
+            line-height: 46px;
+            padding-left: 16px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }  
+        .right-content{
+            border: 1px solid #ccc;
+            overflow: hidden;
+            .content-top{
+                border-bottom: 1px solid #ccc;
+                height: 50px;
+                background: #f4f8fb;
+                span{
+                    display: inline-block;
+                    margin: 13px 30px 0 16px;
+                    border-bottom: 2px solid transparent;
+                    padding:0 8px 5px 8px;
+                }
+                .xinxi{
+                    color: #95c357;
+                    border-bottom: 2px solid #95c357;
+                }
+            }
+            .xinxi-cnt{
+                overflow: hidden;
+                padding: 44px 0 60px 40px;
+//              display: none;
+                li{
+                    overflow: hidden;
+                    margin-bottom: 18px;
+                    .xinxi-left{
+                        display: inline-block;
+                        width: 100px;
+                        float: left;
+                    }
+                    .img{
+                        width: 88px;
+                        height: 88px;
+                        border: 2px solid #eee;
+                        float: left;
+                        position: relative;
+                        margin-bottom: 30px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                        p{
+                            position: absolute;
+                            bottom: 0;
+                            width: 100%;
+                            height: 25px;
+                            line-height: 25px;
+                            background: rgba(10,10,10,.5);
+                            color: #fff;
+                            text-align: center;
+                        }
+                    }
+                    .xiaoname{
+                        float: left;
+                        input{
+                            width: 260px;
+                            height: 25px;
+                        }
+                    }
+                    input[type="radio"]{
+                        margin-left: 12px;
+                    }
+                    #first-radio{
+                        margin-left: 0;
+                    }
+                    select{
+                        width: 80px;
+                        height: 25px;
+                        margin-right: 12px;
+                        option{
+                        }
+                    }
+                    button{
+                        width: 100px;
+                        height: 30px;
+                        color: #fff;
+                        background: #95c357;
+                        border: 0;
+                        margin: 20px 0 0 100px;
+                        font-size: 17px;
+                        border-radius: 3px;
+                    }
+                }
+                .nicheng{
+                    
+                }
+            }
+            .touxiang-cnt{
+                overflow: hidden;
+                padding: 30px 0 40px 30px;
+                display: none;
+                .cnt-left{
+                    width: 520px;
+                    border-right: 1px solid #ccc;
+                    float: left;
+                    .zhezhao{
+                        width: 200px;
+                        height: 36px;
+                        border: 1px solid #ccc;
+                        text-align: center;
+                        line-height: 36px;
+                        i{
+                            color: #777;
+                            margin-right: 8px;
+                            font-size: 18px;
+                        }
+                    }
+                    input[type="file"]{
+                        background: red;
+                        width: 200px;
+                        height: 36px;
+                        opacity: 0;
+                        position: relative;
+                        top: -36px;
+                    }
+                    .shuoming{
+                        color: #999;
+                        font-size: 14px;
+                        margin-bottom: 12px;
+                    }
+                    .left-img{
+                        width: 474px;
+                        height: 237px;
+                        border: 1px solid #ccc;
+                        background: #f9f9f9;
+                        text-align: center;
+                        line-height: 237px;
+                        img{
+                            width: 134px;
+                            height: 134px;
+                            background: url(../img/img-bg.png) no-repeat;
+                            border: 0;
+                        }
+                    }
+                    .tuijian{
+                        margin: 12px 0;
+                        
+                    }
+                    .tuijian-img{
+                        width: 484px;
+                        overflow: hidden;
+                        li{
+                            float: left;
+                            margin:0 10px 12px 0;
+                            position: relative;
+                            img{
+                            }
+                        }
+                        li:hover{
+                            top: -5px;
+                        }
+                    }
+                    button{
+                        width: 100px;
+                        height: 30px;   
+                        color: #fff;
+                        background: #95c357;
+                        border: 0;
+                        margin-top: 30px;
+                        font-size: 18px;
+                        border-radius: 3px;
+                    }
+                }
+                .cnt-right{
+                    width: 500px;
+                    float: left;
+                    padding-left: 40px;
+                    .right-top{
+                        font-weight: 600;
+                    }
+                    .right-shuoming{
+                        font-size: 14px;
+                        color: #999;
+                        margin: 16px 0 30px 0;
+                    }
+                    .right-img{
+                        overflow: hidden;
+                        li{
+                            float: left;
+                            margin-right: 80px;
+                            p{
+                                font-size: 12px;
+                                color: #999;
+                                margin-top: 12px;
+                            }
+                        }
+                        .big-img{
+                            img{
+                                width: 100px;
+                                height: 100px;
+                                border: none;
+                                background: url(../img/img-bg.png);
+                                background-size: 100px;
+                            }
+                        }
+                        .small-img{
+                            img{
+                                width: 50px;
+                                height: 50px;
+                                margin-top: 50px;
+                                background: url(../img/img-bg.png);
+                                background-size: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+}

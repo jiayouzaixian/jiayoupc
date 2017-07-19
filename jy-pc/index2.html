@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>家有在线</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="http://pc.t.jiayou9.com/img/logo1.png" mce_href="http://pc.t.jiayou9.com/img/logo1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="http://pc.t.jiayou9.com/js/swiper-3.3.1.min.css" />
+    <link rel="stylesheet" href="./css/quanju.css" />
+    <link rel="stylesheet" href="./css/index2.css" />
+    <!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"">-->
+    <script src="http://pc.t.jiayou9.com/js/jquery-1.11.1.min.js"></script>
+    <script src="http://pc.t.jiayou9.com/js/swiper-3.3.1.min.js"></script>
+    <script src="http://pc.t.jiayou9.com/js/jquery.lazyload.js"></script>
+    <script src="http://pc.t.jiayou9.com/js/year-month-day.js"></script>
+    <script>
+        $(function() {
+            $("img").lazyload({ 
+                placeholder : "http://pc.t.jiayou9.com/img/loading.gif",
+                effect: "fadeIn"
+            });  
+        });
+    </script>
+</head>  
+<body>
+    <header id="home-header"></header>
+    <!--=================== 导航条   ==================================？-->
+    <nav id="home-nav">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="shipin.html">食品</a></li>
+            <li><a href="yinpin.html">饮品</a></li>
+            <li><a href="shuiguo.html">水果生鲜</a></li>
+            <li><a href="meizhuang.html">美妆</a></li>
+            <li><a href="muying.html">母婴</a></li>
+            <li><a href="yiliao.html">医疗保健</a></li>
+        </ul>
+    </nav>
+    <!--=================== 轮播图   ==================================？-->
+    <div id="home-banner" class="swiper-container">
+        <div class="swiper-wrapper">
+            <!--<img class="swiper-slide" src="img/picture.png" alt="" />
+            <img class="swiper-slide" src="img/picture2.png" alt="" />
+            <img class="swiper-slide" src="img/picture3.png" alt="" />-->
+        </div>
+        <!--左右按钮-->
+        <article>
+            <div class="swiper-button-prev nextBtn"></div>
+            <div class="swiper-button-next nextBtn"></div>
+
+        </article>
+        <!--分页器-->
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--=================== 主体部分   ==================================？-->
+    <main id="home-main">
+        <article  class="mainOne">
+            <div class="one zreo">
+                <p class="top">超级秒杀</p>
+                <p class="moddle">
+                    <span class="hour">11</span> :
+                    <span class="minute">11</span> :
+                    <span class="second">11</span>
+                </p>
+                <p class="btm">去抢购</p>
+            </div>
+            <div class="two zreo">
+                <p class="top">低价拼团</p>
+                <p class="moddle">每天百货商品</p>
+                <p class="btm">去拼团</p>
+            </div>
+            <div class="three zreo">
+                <p class="top">领券中心</p>
+                <p class="moddle">让商品价格更低</p>
+                <p class="btm">去看看</p>
+            </div>
+            <div class="four zreo">
+                <p class="top">新品专区</p>
+                <p class="moddle">更多好货等你来拿</p>
+                <p class="btm">去看看</p>
+            </div>
+        </article>
+    <!--=================== 生态馆   ==================================？-->
+        <article id="home-shengtai" class="main-shengtai main-floor">
+            <div class="main-title"> <!--头部标题--></div>
+            <div class="shengtaiTop"></div>
+            <ul class="gonggongStyleOne">
+            	<li id = ${n.goods_id}>
+                    <div class="img">
+                        <img src="http://pc.t.jiayou9.com/img/loading.gif" data-original="img/shop1.png" alt="" />
+                    </div>
+                    <div class="message">
+                        <p class="goodPri">
+                            <span class="dashed"></span>
+                            <span class="price">￥<span>48</span></span>
+                            <span class="dashed"></span>
+                        </p>
+                        <p class="goodName">金锣原味猪排80g 猪肉 猪排</p>
+                        <p class="goodMessage"></p>
+                    </div>
+               </li>
+            </ul>
+        </article>
+    <!--=================== 伴手礼   ==================================？-->
+        <article id="home-banshou" class="main-banshou main-floor">
+            <div class="main-title"><!--头部标题--></div>
+            <ul></ul>
+
+        </article>
+    <!--=================== 地区馆   ==================================？-->
+        <article id="home-diqu" class="main-diqu main-floor">
+            <div class="main-title"><!--头部标题--></div>
+            <div class="banshouTop">
+                <div class="img">
+	                <img class="guiyang-img" src="img/diquguan1.png"/>
+	                <img src="img/diquguan2.png"/>
+	                <img src="img/diquguan3.png"/>
+	                <img src="img/diquguan4.png"/>
+	                <img src="img/diquguan5.png"/>
+	                <img src="img/diquguan6.png"/>
+	                <img src="img/diquguan7.png"/>
+	                <img src="img/diquguan8.png"/>
+	                <img src="img/diquguan9.png"/>
+                </div>
+                <div class="diquName">
+	                <p class="diqu-mingzi diqu-guiyang"><span class="name">贵阳馆</span><i class="yuan"></i><span class="hengxian"></span></p>
+	                <p class="diqu-mingzi diqu-zunyi"><span class="name">遵义馆</span><i class="yuan"></i><span class="hengxian"></span></p>
+	                <p class="diqu-mingzi diqu-qiannan"><span class="name">黔南馆</span><i class="yuan"></i><span class="hengxian"></span></p>
+	                <p class="diqu-mingzi diqu-anshun"><span class="name">安顺馆</span><i class="yuan"></i><span class="hengxian"></span></p>
+	                <p class="diqu-mingzi diqu-dongnan"><span class="name">黔东南馆</span><i class="yuan"></i><span class="hengxian"></span></p>
+	                <p class="diqu-mingzi diqu-xinan"><span class="name">黔西南馆</span><i class="yuan"></i><span class="hengxian"></span></p>
+	                <p class="diqu-mingzi diqu-bijie"><span class="name">毕节馆</span><i class="yuan"></i><span class="hengxian"></span></p>
+	                <p class="diqu-mingzi diqu-liupanshui"><span class="name">六盘水馆</span><i class="yuan"></i><span class="hengxian"></span></p>
+	                <p class="diqu-mingzi diqu-tongren"><span class="name">铜仁馆</span><i class="yuan"></i><span class="hengxian"></span></p>
+                </div>
+                <div class="jieshao">
+	                <p class="diqujieshao mm">这是贵阳馆的介绍</p>
+	                <p class="diqujieshao">这是遵义馆的介绍</p>
+	                <p class="diqujieshao">这是黔南馆的介绍</p>
+	                <p class="diqujieshao">这是安顺馆的介绍</p>
+	                <p class="diqujieshao">这是黔东南馆的介绍</p>
+	                <p class="diqujieshao">这是黔西南馆的介绍</p>
+	                <p class="diqujieshao">这是毕节馆的介绍</p>
+	                <p class="diqujieshao">这是六盘水馆的介绍</p>
+	                <p class="diqujieshao">这是铜仁馆的介绍</p>
+                </div>
+            </div>
+            <ul class="gonggongStyleOne"></ul>
+        </article>
+    <!--=================== 美食   ==================================？-->
+        <article id="home-meishi" class="main-meishi main-floor">
+            <div class="main-title"><!--头部标题--></div>
+           	<div class="btm-main gonggongStyleTwo">
+	           	<img src="http://pc.t.jiayou9.com/img/loading.gif" data-original="img/bannermeishi.png" alt="" class="leftBanner" />
+	           	<ul class="main-option"></ul>
+	            <ul class="oneStyle oneShow"> <!--休食--></ul>
+	            <ul class="oneStyle liangyou"><!--粮油--></ul>
+	            <ul class="oneStyle tiaowei"> <!--调味--> </ul>
+	            <ul class="oneStyle ganhuo"> <!--干货--> </li>
+	            </ul>
+	            <div class="clearfloat" style="clear: both;"></div>
+           	</div>
+        </article>
+    <!--=================== 茶酒   ==================================？-->
+        <article id="home-chajiu" class="main-chajiu main-floor">
+            <div class="main-title"><!--头部标题--></div>
+           	<div class="btm-main gonggongStyleTwo">
+	           	 <img src="http://pc.t.jiayou9.com/img/loading.gif" data-original="img/bannerchajiu.png" alt="" class="leftBanner" />
+	           	 <ul class="main-option"></ul>
+	            <ul class="oneStyle oneShow cha"> </ul>
+	            <ul class="oneStyle jiulei"> </ul>
+	            <ul class="oneStyle yinliao"> </ul>
+	            <div class="clearfloat" style="clear: both;"></div>
+           	</div>
+            
+        </article>
+    <!--=================== 水果   ==================================？-->
+        <article id="home-shuiguo" class="main-shuiguo main-floor">
+            <div class="main-title"><!--头部标题--></div>
+           	<div class="btm-main gonggongStyleTwo">
+	           	 <img src="http://pc.t.jiayou9.com/img/loading.gif" data-original="img/bannershuiguo.png" alt="" class="leftBanner" />
+	           	 <ul class="main-option"></ul>
+	            <ul class="oneStyle oneShow shuiguo">  </ul>
+	            <ul class="oneStyle yurou">  </ul> 
+	            <div class="clearfloat" style="clear: both;"></div>
+           	</div>
+           
+        </article>
+    <!--=================== 工艺品   ==================================？-->
+        <article id="home-gongyi" class="main-gongyi main-floor">
+            <div class="main-title"><!--头部标题--></div>
+           	<div class="btm-main gonggongStyleTwo">
+	           	 <img src="http://pc.t.jiayou9.com/img/loading.gif" data-original="img/bannergongyi.png" alt="" class="leftBanner" />
+	           	 <ul class="main-option"></ul>
+	            <ul class="oneStyle oneShow gerenpeishi">  </ul>
+	            <ul class="oneStyle diaoke">  </ul>
+	            <div class="clearfloat" style="clear: both;"></div>
+           	</div>
+            
+        </article>
+    <!--=================== 化化妆   ==================================？-->
+        <article id="home-meizhuang" class="main-meizhuang main-floor">
+            <div class="main-title"><!--头部标题--></div>
+           	<div class="btm-main gonggongStyleTwo">
+	           	 <img src="http://pc.t.jiayou9.com/img/loading.gif" data-original="img/bannermeizhuang.png" alt="" class="leftBanner" />
+	           	 <ul class="main-option"></ul>
+	            <ul class="oneStyle oneShow hufu">  </ul>
+	            <ul class="oneStyle huli">  </ul>
+	            <ul class="oneStyle caizhuang">  </ul>
+	            <div class="clearfloat" style="clear: both;"></div>
+           	</div>
+           	
+        </article>
+    <!--=================== 母婴   ==================================？-->
+        <article id="home-muying" class="main-muying main-floor">
+            <div class="main-title"><!--头部标题--> </div>
+           	<div class="btm-main gonggongStyleTwo">
+	           	 <img src="http://pc.t.jiayou9.com/img/loading.gif" data-original="img/bannermuying.png" alt="" class="leftBanner" />
+	           	 <ul class="main-option"> </ul>
+	            <ul class="oneStyle oneShow naifen">  </ul>
+	            <ul class="oneStyle fushi"> </ul>
+	            <div class="clearfloat" style="clear: both;"></div>
+           	</div>
+            
+        </article>
+    <!--=================== 医疗   ==================================？-->
+        <article id="home-yiliao" class="main-yiliao main-floor">
+            <div class="main-title"><!--头部标题--> </div>
+           	<div class="btm-main gonggongStyleTwo">
+	           	 <img src="http://pc.t.jiayou9.com/img/loading.gif" data-original="img/banneryiliao.png" alt="" class="leftBanner" />
+	           	 <ul class="main-option"></ul>
+	            <ul class="oneStyle oneShow yaopin"> </ul>
+	            <ul class="oneStyle jichu">  </ul>
+	            <ul class="oneStyle yaoshi"></ul>
+	            <ul class="oneStyle weiliang">  </ul>
+	            <ul class="oneStyle yiyaoxiang">  </ul>
+	            <div class="clearfloat" style="clear: both;"></div>
+           	</div>
+            
+        </article>
+    <!--=================== 家居生活   ==================================？-->
+       
+    </main>
+    <div id="home-aside">`	
+        <ul>
+            <li><a href="#home-header"><span>返回顶部</span> <i class = "jy-iconfont floor-top "></i></a></li>
+            <li><a href="#home-shengtai"><span>生态馆</span> <i class = "jy-iconfont floor-shengtai "></i></a></li>
+            <li><a href="#home-banshou"><span>伴手礼物</span> <i class = "jy-iconfont floor-banshou "></i></a></li>
+            <li><a href="#home-diqu"><span>贵州地区</span> <i class = "jy-iconfont floor-diqu "></i></a></li>
+            <li><a href="#home-meishi"><span>精选美食</span> <i class = "jy-iconfont floor-meishi "></i></a></li>
+            <li><a href="#home-chajiu"><span>茶酒饮品</span> <i class = "jy-iconfont floor-chajiu "></i></a></li>
+            <li><a href="#home-shuiguo"><span>水果生鲜</span> <i class = "jy-iconfont floor-shuiguo "></i></a></li>
+            <li><a href="#home-gongyi"><span>黔匠工艺</span> <i class = "jy-iconfont floor-gongyi "></i></a></li>
+            <li><a href="#home-meizhuang"><span>美妆个护</span> <i class = "jy-iconfont floor-meizhuang "></i></a></li>
+            <li><a href="#home-muying"><span>母婴用品</span> <i class = "jy-iconfont floor-muying "></i></a></li>
+            <li><a href="#home-yiliao"><span>医疗保健</span> <i class = "jy-iconfont floor-yiliao "></i></a></li>
+        </ul>
+    </div>
+
+    <footer id="home-footer"></footer>
+
+</body>
+    <script src="./js/index2.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <!--<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+</html>

@@ -1,0 +1,479 @@
+
+//个人中心的主体部分
+#vue-main{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    padding-bottom: 30px;
+    .vue-left{
+        width: 120px;
+        border: 1px solid #ccc;
+        padding-bottom: 20px;
+        float: left;
+        ul{
+            li{
+                border-bottom: 1px solid #ccc;
+                line-height: 30px;
+                font-size: 12px;
+                p{
+                    padding-left: 15px;
+                    a{
+                        display: inline-block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .left-li-one{
+                    font-size: 16px;
+                }
+                p:hover{
+                    color: #95c357;
+                }
+                .left-li-one:hover{
+                    color: #333;
+                    cursor: default;
+                }
+            }
+            .bgstyle{
+                background: #7BBB49;
+                a{
+                    color: #fff;
+                }
+            }
+            li:last-of-type{
+                border-bottom: 0;
+            }
+        }
+    }
+    .vue-right{
+        width: 1062px;
+        min-height: 700px;
+        float: right;
+        .vue-right-ul{
+            .right-home{
+//              display: none;
+                .right-vuer{
+                    width: 1060px;
+                    height: 47px;
+                    line-height: 47px;
+                    padding-left: 17px;
+                    padding-right: 17px;
+                    font-size: 15px;
+                    color: #343434;
+                    position: relative;
+                    overflow: hidden;
+                    border: 1px solid #ccc;
+                    h3{
+                       float: left;
+                    }
+                    p{
+                        float: left;
+                        line-height: 46px;
+                        height: 46px;
+                        font-size: 14px;
+                        color: #9a9a9a;
+                    }
+                }
+//  个人中心的待付款 待收货这里
+                .right_myGuanzhu{
+//                  border: 1px solid #ccc;
+                    margin-top: 20px;
+                    width: 1060px;
+                    overflow: hidden;
+                    .myGuanzhu-top{
+                        border: 1px solid #ccc;
+                        overflow: hidden;
+                        padding: 13px 30px 0 16px;
+                        height: 80px;
+                        background: #f4f8fb;
+                        font-size: 14px;
+                        margin-bottom: 20px;
+                        ul{
+                            width: 100%;
+                            position: relative;
+                            li{
+                                height: 27px;
+                                line-height: 27px;
+                                width: 100%;
+                                p{
+                                    float: left;
+                                }
+                                .order_state{
+                                    font-size: 15px;
+                                    color: #323433;
+                                    span{
+                                        color: #97c256;
+                                    }
+                                }
+                                .order_price{
+                                    font-size: 12px;
+                                    color: #989896;
+                                    margin-left: 40px;
+                                }
+                                .icon-shengyushijian{
+                                    margin-right: 12px;
+                                }
+                            }
+                            li:last-of-type{
+                                font-size: 14px;
+                                color: #a7a7a9;
+                            }
+                            input{
+                                position: absolute;
+                                top: 12px;
+                                right: 30px;
+                                width: 100px;
+                                height: 30px;
+                                line-height: 30px;
+                                border: none;
+                                font-size: 12px;
+                                background: #95C357;
+                                border-radius: 1px;
+                                color: #fff;
+                            }
+                        }
+                        
+                    }
+                    .myGuanzhu_main1{
+                        height: 240px;
+                        border: 1px solid #ccc;
+                        margin-bottom: 20px;
+                        font-size: 14px;
+                        .tip{
+                            margin: 19px 0 0 17px;
+                            font-size: 11px;
+                            color: #999999;
+                        }
+                        ul{
+                            width: 100%;
+                            padding-left: 100px;
+                            padding-top: 50px;
+                            overflow: hidden;
+                            li{
+                                position: relative;
+                                width: 190px;
+                                float: left;
+                                color: #999999;
+                                .icon1{
+                                    margin-bottom: 20px;
+                                    img{
+                                        margin-left: 20px;
+                                    }
+                                }
+                                .top{
+                                    position: absolute;
+                                    top: -15px;
+                                    left: 92px;
+                                    color: #95c357;
+                                }
+                            }
+                            li:last-of-type{
+                                .title{
+                                    margin-left: 20px;
+                                }
+                            }
+                            li:first-of-type{
+                                color: #333333;
+                            }
+                        }
+                    }
+                    .myGuanzhu_main2{
+                        height: 140px;
+                        border: 1px solid #ccc;
+                        margin-bottom: 20px;
+                        padding: 10px;
+                        padding-left: 17px;
+                        section{
+                            float: left;
+                        }
+                        .main2_left{
+                            font-size: 12px;
+                            line-height: 26px;
+                            width: 235px;
+                            border-right: 1px solid #e5e5e5;
+                            height: 100%;
+                        }
+                        .main2_right{
+                            ul{
+                                font-size: 12px;
+                                color: #343434;
+                                li{
+//                                  overflow: hidden;
+                                    margin-left: 34px;
+//                                  height: 30px;
+                                    span{
+                                        display: inline-block;
+                                    }
+                                    .cencle{
+                                        // 绿色圆点
+                                        width: 9px;
+                                        height: 9px;
+                                        background: #c9c9c9;
+                                        vertical-align: middle;
+                                        border: 2px solid #eeeeee;
+                                        border-radius: 50%;
+                                        margin-right: 34px;
+                                        position: relative;
+                                        // 竖线
+                                        .line{
+                                            width: 1px;
+                                            height: 10px;
+                                            border-left: 1px solid #dfe1de;
+                                            position: absolute;
+                                            bottom: -11px;
+                                            left: 2px;
+                                        }
+                                    }
+                                    .main2_time{
+                                        margin-right: 34px;
+                                    }
+                                }
+                                // 最后你一个竖线隐藏
+                                li:last-of-type{
+                                    .cencle{
+                                        .line{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                // 第一个
+                                li:first-of-type{
+                                    .cencle{
+                                        border: 2px solid #e4eed3;
+                                        background: #96c457;
+                                    }
+                                    .main2_content{
+                                        font-weight: bold;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                    .myGuanzhu_main3{
+                        height: 200px;
+                        border: 1px solid #ccc;
+                        margin-bottom: 20px;
+                        ul{
+                            overflow: hidden;
+                            height: 100%;
+                            li{
+                                height: 100%;
+                                float: left;
+                                border-right: 1px solid #ccc;
+                            }
+                            .main3_left, .main3_center, .main3_right{
+                                width: 351px;
+                                padding: 19px;
+                                table{
+                                    color: #5d5d5d;
+                                    text-align: left;
+                                    vertical-align: top;
+                                    tr:first-of-type{
+                                        font-size: 14px;
+                                        height: 28px;
+                                        line-height: 16px;
+                                        margin-bottom: 14px;
+                                    }
+                                    tr{
+                                        font-size: 12px;
+                                        text-align: left;
+                                        vertical-align: top;
+                                        height: 26px;
+                                        th{
+                                            width: 95px;
+                                        }
+                                        td{
+                                            width: 180px;
+                                            line-height: 18px;
+                                        }
+                                    }
+                                    .left_tr2{
+                                        height: 62px;
+                                    }
+                                }
+                            }
+                            .main3_center{
+                                width: 362px;
+                            }
+                            .main3_right{
+                                width: 345px;
+                                border: 0;
+                            }
+                        }
+                    }
+                    .myGuanzhu_main4{
+//                      height: 140px;
+                        border: 1px solid #ccc;
+                        margin-bottom: 20px;
+                        .table1{
+                            width: 100%;
+                            tr{
+                                border-bottom: 1px solid #ccc;
+                                td:first-of-type{
+                                    width: 458px;
+                                }
+                                td:nth-of-type(2){
+                                    width: 227px;
+                                }
+                                td:nth-of-type(3){
+                                    width: 92px;
+                                }
+                                td:nth-of-type(4){
+                                    width: 100px;
+                                }
+                            }
+                            tr:first-of-type{
+                                text-align: center;
+                                height: 50px;
+                                line-height: 50px;
+                                background: #f4f8fb;
+                                font-size: 14px;
+                                color: #333333;
+                            }
+                            .main4_tr2{
+                                height: 113px;
+                                text-align: center;
+                                td:first-of-type{
+                                    padding: 17px;
+                                    position: relative;
+                                    text-align: left;
+                                    .img{
+                                        width: 80px;
+                                        height: 80px;
+                                        float: left;
+                                        margin-right: 30px;
+                                        img{
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                    .message{
+                                        float: left;
+                                        width: 280px;
+                                        font-size: 14px;
+                                        color: #333333;
+                                        line-height: 24px;
+                                        .specifications{
+                                            font-size: 11px;
+                                            color: #999999;
+                                            position: absolute;
+                                            bottom: 17px;
+                                        }
+                                    }
+                                }
+                                td:nth-of-type(2),td:nth-of-type(3),td:nth-of-type(4){
+                                    font-size: 11px;
+                                }
+                                td:nth-of-type(3){
+                                    color: #fd0100;
+                                }
+                            }
+                        }
+                        .main4_tr3{
+                            height: 233px;
+                            padding-top: 17px;
+                            padding-right: 40px;
+                            li{
+                                overflow: hidden;
+                                table{
+                                    float: right;
+                                    width: 212px;
+                                    tr{
+                                        background: #fff;
+                                        border: none;
+                                        height: 30px;
+                                        margin: 0;
+                                        font-size: 14px;
+                                        color: #333333;
+                                        th{
+                                            width: 50%;
+                                           
+                                        }
+                                        td{
+                                            width: 50%;
+                                            text-align: right;
+                                        }
+                                    }
+                                    tr:last-of-type{
+                                        color: #fe0002;
+                                        td{
+                                            font-weight: bold;
+                                        }
+                                    }
+                                }
+                            }
+                            li:nth-of-type(2){
+                                text-align: right;
+                                font-size: 12px;
+                                color: #a9a9a9;
+                                span{
+                                    font-size: 12px;
+                                    color: #9a9a9a;
+                                }
+                                input{
+                                    width: 100px;
+                                    height: 30px;
+                                    line-height: 30px;
+                                    border: none;
+                                    font-size: 12px;
+                                    background: #95C357;
+                                    border-radius: 1px;
+                                    color: #fff;
+                                    margin-left: 14px;
+                                    margin-top: 16px;
+                                }
+                            }
+                            li:nth-of-type(3){
+                                text-align: right;
+                                font-size: 12px;
+                                color: #a9a9a9;
+                                margin-top: 15px;
+                                
+                            }
+                        }
+                    }
+                
+                }
+//              我的关注样式
+                .right-myGuanzhu{
+                    border: 1px solid #ccc;
+                    font-size: 14px;
+                    .myGuanzhu-top{
+                        height: 46px;
+                        background: #f4f8fb;
+                        padding: 0 30px 0 16px;
+                        line-height: 46px;
+                        border-bottom: 1px solid #ccc;
+                        .allOrder{
+                            float: right;
+                        }
+                    }
+                    .guanzhu-goods{
+                        overflow: hidden;
+                        li{
+                            float: left;
+                            width: 200px;
+                            height: 240px;
+                            margin: 5px;
+                            text-align: center;
+                            img{
+                                width: 160px;
+                                height: 160px;
+                                margin: 20px 0;
+                            }
+                            p{
+                                width: 80%;
+                                display: inline-block;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,315 @@
+#vue_main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+#vue_main #top {
+  overflow: hidden;
+  height: 470px;
+}
+#vue_main #top section {
+  float: left;
+}
+#vue_main #top .left {
+  width: 380px;
+  height: 395px;
+}
+#vue_main #top .left .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+#vue_main #top .center {
+  width: 580px;
+  margin-left: 20px;
+  padding: 0 3px;
+}
+#vue_main #top .center .goods_name {
+  font-weight: bold;
+  font-size: 16px;
+  height: 60px;
+  line-height: 30px;
+  color: #333333;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+#vue_main #top .center .goods_brief {
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  color: #d0311b;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+#vue_main #top .center table {
+  width: 100%;
+  line-height: 36px;
+}
+#vue_main #top .center table tr {
+  height: 36px;
+  font-size: 12px;
+  color: #999b9a;
+}
+#vue_main #top .center table tr th {
+  width: 82px;
+  padding-left: 11px;
+}
+#vue_main #top .center table tr td .num {
+  float: left;
+  font-size: 9px;
+  width: 70px;
+  background: #fff;
+  height: 24px;
+  line-height: 20px;
+  display: flex;
+  text-align: center;
+  border: 1px solid #eeeeee;
+  color: #8c8c8c;
+  margin-top: 5px;
+}
+#vue_main #top .center table tr td .num span {
+  display: block;
+  flex: 1;
+  vertical-align: middle;
+  background: #f4f8fb;
+}
+#vue_main #top .center table tr td .num .number {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  background: #fff;
+}
+#vue_main #top .center table tr td .buy {
+  float: right;
+  font-size: 12px;
+  width: 88px;
+  height: 24px;
+  line-height: 24px;
+  color: #fff;
+  background: #84b83a;
+  text-align: center;
+  margin-top: 5px;
+}
+#vue_main #top .center table tr .shop_price {
+  font-size: 13px;
+  color: #d1311b;
+}
+#vue_main #top .center table tr .market_price {
+  color: #646567;
+  text-decoration: line-through;
+}
+#vue_main #top .center table tr:first-of-type,
+#vue_main #top .center table tr:nth-of-type(2) {
+  background: #f4f8fb;
+}
+#vue_main #top .center .menu {
+  overflow: hidden;
+}
+#vue_main #top .center .menu p {
+  float: left;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 1px;
+  margin: 18px 0;
+}
+#vue_main #top .center .menu .menu1 {
+  background: #d1311b;
+  margin-right: 16px;
+}
+#vue_main #top .center .menu .menu2 {
+  background: #84b83a;
+}
+#vue_main #top .center .tip {
+  font-size: 12px;
+  color: #999999;
+}
+#vue_main #top .right {
+  width: 200px;
+  height: 460px;
+  margin-top: 8px;
+  float: right;
+}
+#vue_main #top .right img {
+  width: 100%;
+  height: 100%;
+}
+#vue_main #main nav {
+  height: 42px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  line-height: 42px;
+  background: #f4f8fb;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#vue_main #main nav ul {
+  overflow: hidden;
+}
+#vue_main #main nav ul li {
+  float: left;
+  width: 120px;
+  text-align: center;
+  height: 40px;
+}
+#vue_main #main nav ul li a {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #676566;
+  margin-top: -5px;
+}
+#vue_main #main nav ul li:first-of-type {
+  background: #d1311b;
+}
+#vue_main #main nav ul li:first-of-type a {
+  color: #fff;
+}
+#vue_main #main nav ul div {
+  float: right;
+  overflow: hidden;
+}
+#vue_main #main nav ul div p {
+  float: left;
+}
+#vue_main #main nav ul div .price {
+  font-size: 12px;
+  color: #cf3118;
+  margin-right: 20px;
+}
+#vue_main #main nav ul div .menu2 {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  margin-top: 6px;
+  text-align: center;
+  background: #84b83a;
+  color: #fff;
+  border-radius: 1px;
+}
+#vue_main #main #xiangqing {
+  width: 100%;
+  margin-bottom: 28px;
+}
+#vue_main #main #xiangqing img {
+  width: 100%;
+}
+#vue_main #main #guige,
+#vue_main #main #shouhou,
+#vue_main #main #pinglun {
+  width: 100%;
+}
+#vue_main #main #guige header,
+#vue_main #main #shouhou header,
+#vue_main #main #pinglun header {
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #333333;
+  background: #f4f8fb;
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  padding-left: 10px;
+}
+#vue_main #main #guige ul li,
+#vue_main #main #shouhou ul li,
+#vue_main #main #pinglun ul li {
+  line-height: 36px;
+  color: #989898;
+  font-size: 12px;
+  padding-left: 15px;
+}
+#vue_main #main #shouhou ul li {
+  line-height: 18px;
+  margin: 18px 0;
+}
+#vue_main #main #pinglun .praise {
+  height: 139px;
+  line-height: 139px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #343434;
+}
+#vue_main #main #pinglun .praise span {
+  font-size: 38px;
+  color: #85b93b;
+  vertical-align: middle;
+}
+#vue_main #main #pinglun ul li {
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  padding-top: 23px;
+  overflow: hidden;
+}
+#vue_main #main #pinglun ul li .left {
+  float: left;
+  overflow: hidden;
+  width: 135px;
+}
+#vue_main #main #pinglun ul li .left p {
+  float: left;
+}
+#vue_main #main #pinglun ul li .left .img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+#vue_main #main #pinglun ul li .left .img img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+#vue_main #main #pinglun ul li .right {
+  float: right;
+  width: 1030px;
+}
+#vue_main #main #pinglun ul li .right .pinglun_words {
+  line-height: 18px;
+  color: #666666;
+  font-size: 12px;
+}
+#vue_main #main #pinglun ul li .right .pinglun_img {
+  overflow: hidden;
+  margin-top: 17px;
+}
+#vue_main #main #pinglun ul li .right .pinglun_img li {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #e5e5e5;
+  margin-right: 10px;
+  padding: 0;
+}
+#vue_main #main #pinglun ul li .right .pinglun_img li img {
+  width: 58px;
+  height: 58px;
+}
+#vue_main #main #pinglun ul li .right .big_img {
+  width: 380px;
+  height: 210px;
+  margin-top: 10px;
+  display: none;
+}
+#vue_main #main #pinglun ul li .right .right_bottom {
+  height: 52px;
+  line-height: 52px;
+}
+#vue_main #main #pinglun ul li .right .right_bottom p {
+  float: left;
+}
+#vue_main #main #pinglun ul li .right .right_bottom .goods_message {
+  margin-right: 44px;
+}
+#vue_main #main #pinglun ul li .right .right_bottom .date1 {
+  margin-right: 12px;
+}

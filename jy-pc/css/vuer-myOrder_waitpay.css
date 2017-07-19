@@ -1,0 +1,460 @@
+#vue-main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+#vue-main .vue-left {
+  width: 120px;
+  border: 1px solid #ccc;
+  padding-bottom: 20px;
+  float: left;
+}
+#vue-main .vue-left ul li {
+  border-bottom: 1px solid #ccc;
+  line-height: 30px;
+  font-size: 12px;
+}
+#vue-main .vue-left ul li p {
+  padding-left: 15px;
+}
+#vue-main .vue-left ul li p a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#vue-main .vue-left ul li .left-li-one {
+  font-size: 16px;
+}
+#vue-main .vue-left ul li p:hover {
+  color: #95c357;
+}
+#vue-main .vue-left ul li .left-li-one:hover {
+  color: #333;
+  cursor: default;
+}
+#vue-main .vue-left ul .bgstyle {
+  background: #7BBB49;
+}
+#vue-main .vue-left ul .bgstyle a {
+  color: #fff;
+}
+#vue-main .vue-left ul li:last-of-type {
+  border-bottom: 0;
+}
+#vue-main .vue-right {
+  width: 1062px;
+  min-height: 700px;
+  float: right;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right-vuer {
+  width: 1060px;
+  height: 47px;
+  line-height: 47px;
+  padding-left: 17px;
+  padding-right: 17px;
+  font-size: 15px;
+  color: #343434;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right-vuer h3 {
+  float: left;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right-vuer p {
+  float: left;
+  line-height: 46px;
+  height: 46px;
+  font-size: 14px;
+  color: #9a9a9a;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu {
+  margin-top: 20px;
+  width: 1060px;
+  overflow: hidden;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu-top {
+  border: 1px solid #ccc;
+  overflow: hidden;
+  padding: 13px 30px 0 16px;
+  height: 80px;
+  background: #f4f8fb;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu-top ul {
+  width: 100%;
+  position: relative;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu-top ul li {
+  height: 27px;
+  line-height: 27px;
+  width: 100%;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu-top ul li p {
+  float: left;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu-top ul li .order_state {
+  font-size: 15px;
+  color: #323433;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu-top ul li .order_state span {
+  color: #97c256;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu-top ul li .order_price {
+  font-size: 12px;
+  color: #989896;
+  margin-left: 40px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu-top ul li .icon-shengyushijian {
+  margin-right: 12px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu-top ul li:last-of-type {
+  font-size: 14px;
+  color: #a7a7a9;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu-top ul input {
+  position: absolute;
+  top: 12px;
+  right: 30px;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  font-size: 12px;
+  background: #95C357;
+  border-radius: 1px;
+  color: #fff;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main1 {
+  height: 240px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main1 .tip {
+  margin: 19px 0 0 17px;
+  font-size: 11px;
+  color: #999999;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main1 ul {
+  width: 100%;
+  padding-left: 100px;
+  padding-top: 50px;
+  overflow: hidden;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main1 ul li {
+  position: relative;
+  width: 190px;
+  float: left;
+  color: #999999;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main1 ul li .icon1 {
+  margin-bottom: 20px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main1 ul li .icon1 img {
+  margin-left: 20px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main1 ul li .top {
+  position: absolute;
+  top: -15px;
+  left: 92px;
+  color: #95c357;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main1 ul li:last-of-type .title {
+  margin-left: 20px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main1 ul li:first-of-type {
+  color: #333333;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 {
+  height: 140px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 10px;
+  padding-left: 17px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 section {
+  float: left;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 .main2_left {
+  font-size: 12px;
+  line-height: 26px;
+  width: 235px;
+  border-right: 1px solid #e5e5e5;
+  height: 100%;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 .main2_right ul {
+  font-size: 12px;
+  color: #343434;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 .main2_right ul li {
+  margin-left: 34px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 .main2_right ul li span {
+  display: inline-block;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 .main2_right ul li .cencle {
+  width: 9px;
+  height: 9px;
+  background: #c9c9c9;
+  vertical-align: middle;
+  border: 2px solid #eeeeee;
+  border-radius: 50%;
+  margin-right: 34px;
+  position: relative;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 .main2_right ul li .cencle .line {
+  width: 1px;
+  height: 10px;
+  border-left: 1px solid #dfe1de;
+  position: absolute;
+  bottom: -11px;
+  left: 2px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 .main2_right ul li .main2_time {
+  margin-right: 34px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 .main2_right ul li:last-of-type .cencle .line {
+  display: none;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 .main2_right ul li:first-of-type .cencle {
+  border: 2px solid #e4eed3;
+  background: #96c457;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main2 .main2_right ul li:first-of-type .main2_content {
+  font-weight: bold;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 {
+  height: 200px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul {
+  overflow: hidden;
+  height: 100%;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul li {
+  height: 100%;
+  float: left;
+  border-right: 1px solid #ccc;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_left,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_center,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_right {
+  width: 351px;
+  padding: 19px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_left table,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_center table,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_right table {
+  color: #5d5d5d;
+  text-align: left;
+  vertical-align: top;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_left table tr:first-of-type,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_center table tr:first-of-type,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_right table tr:first-of-type {
+  font-size: 14px;
+  height: 28px;
+  line-height: 16px;
+  margin-bottom: 14px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_left table tr,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_center table tr,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_right table tr {
+  font-size: 12px;
+  text-align: left;
+  vertical-align: top;
+  height: 26px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_left table tr th,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_center table tr th,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_right table tr th {
+  width: 95px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_left table tr td,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_center table tr td,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_right table tr td {
+  width: 180px;
+  line-height: 18px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_left table .left_tr2,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_center table .left_tr2,
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_right table .left_tr2 {
+  height: 62px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_center {
+  width: 362px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main3 ul .main3_right {
+  width: 345px;
+  border: 0;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 {
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 {
+  width: 100%;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 tr {
+  border-bottom: 1px solid #ccc;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 tr td:first-of-type {
+  width: 458px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 tr td:nth-of-type(2) {
+  width: 227px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 tr td:nth-of-type(3) {
+  width: 92px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 tr td:nth-of-type(4) {
+  width: 100px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 tr:first-of-type {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background: #f4f8fb;
+  font-size: 14px;
+  color: #333333;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 .main4_tr2 {
+  height: 113px;
+  text-align: center;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 .main4_tr2 td:first-of-type {
+  padding: 17px;
+  position: relative;
+  text-align: left;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 .main4_tr2 td:first-of-type .img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 30px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 .main4_tr2 td:first-of-type .img img {
+  width: 100%;
+  height: 100%;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 .main4_tr2 td:first-of-type .message {
+  float: left;
+  width: 280px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 24px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 .main4_tr2 td:first-of-type .message .specifications {
+  font-size: 11px;
+  color: #999999;
+  position: absolute;
+  bottom: 17px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 .main4_tr2 td:nth-of-type(2),
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 .main4_tr2 td:nth-of-type(3),
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 .main4_tr2 td:nth-of-type(4) {
+  font-size: 11px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .table1 .main4_tr2 td:nth-of-type(3) {
+  color: #fd0100;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 {
+  height: 233px;
+  padding-top: 17px;
+  padding-right: 40px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li {
+  overflow: hidden;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li table {
+  float: right;
+  width: 212px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li table tr {
+  background: #fff;
+  border: none;
+  height: 30px;
+  margin: 0;
+  font-size: 14px;
+  color: #333333;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li table tr th {
+  width: 50%;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li table tr td {
+  width: 50%;
+  text-align: right;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li table tr:last-of-type {
+  color: #fe0002;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li table tr:last-of-type td {
+  font-weight: bold;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li:nth-of-type(2) {
+  text-align: right;
+  font-size: 12px;
+  color: #a9a9a9;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li:nth-of-type(2) span {
+  font-size: 12px;
+  color: #9a9a9a;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li:nth-of-type(2) input {
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  font-size: 12px;
+  background: #95C357;
+  border-radius: 1px;
+  color: #fff;
+  margin-left: 14px;
+  margin-top: 16px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right_myGuanzhu .myGuanzhu_main4 .main4_tr3 li:nth-of-type(3) {
+  text-align: right;
+  font-size: 12px;
+  color: #a9a9a9;
+  margin-top: 15px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right-myGuanzhu {
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right-myGuanzhu .myGuanzhu-top {
+  height: 46px;
+  background: #f4f8fb;
+  padding: 0 30px 0 16px;
+  line-height: 46px;
+  border-bottom: 1px solid #ccc;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right-myGuanzhu .myGuanzhu-top .allOrder {
+  float: right;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right-myGuanzhu .guanzhu-goods {
+  overflow: hidden;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right-myGuanzhu .guanzhu-goods li {
+  float: left;
+  width: 200px;
+  height: 240px;
+  margin: 5px;
+  text-align: center;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right-myGuanzhu .guanzhu-goods li img {
+  width: 160px;
+  height: 160px;
+  margin: 20px 0;
+}
+#vue-main .vue-right .vue-right-ul .right-home .right-myGuanzhu .guanzhu-goods li p {
+  width: 80%;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

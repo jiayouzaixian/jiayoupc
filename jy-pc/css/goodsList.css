@@ -1,0 +1,194 @@
+#vue_main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+#vue_main ul #tip {
+  font-size: 12px;
+  color: #808080;
+  height: 51px;
+  line-height: 51px;
+  font-size: 14px;
+  color: #333333;
+  border-bottom: 1px solid #eeeeee;
+}
+#vue_main ul #choose {
+  height: 33px;
+  line-height: 33px;
+  font-size: 12px;
+  border-bottom: 1px solid #eeeeee;
+  overflow: hidden;
+}
+#vue_main ul #choose h3 {
+  color: #333333;
+  float: left;
+  width: 110px;
+}
+#vue_main ul #choose p {
+  color: #666666;
+  float: left;
+  width: 135px;
+}
+#vue_main ul #btn {
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  border-bottom: 1px solid #eeeeee;
+  overflow: hidden;
+  background: #f4f8fb;
+  position: relative;
+}
+#vue_main ul #btn ul {
+  float: left;
+  overflow: hidden;
+}
+#vue_main ul #btn ul li {
+  float: left;
+  width: 88px;
+  height: 34px;
+  text-align: center;
+  color: #7e7f81;
+}
+#vue_main ul #btn ul li:first-of-type {
+  background: #d1311b;
+  color: #fff;
+}
+#vue_main ul #btn .search {
+  overflow: hidden;
+  position: absolute;
+  top: 5px;
+  right: 235px;
+}
+#vue_main ul #btn .search input {
+  float: left;
+  width: 140px;
+  height: 24px;
+  border: 1px solid #e5e5e5;
+}
+#vue_main ul #btn .search span {
+  float: left;
+  display: block;
+  width: 49px;
+  height: 24px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-left: none;
+  line-height: 24px;
+  font-size: 12px;
+  color: #5b5b5d;
+}
+#vue_main ul #radio {
+  height: 34px;
+  line-height: 34px;
+  font-size: 12px;
+  color: #5c5c5c;
+  border-bottom: 1px solid #eeeeee;
+}
+#vue_main ul #radio input {
+  vertical-align: middle;
+}
+#vue_main main ul {
+  overflow: hidden;
+}
+#vue_main main ul li:nth-of-type(5n + 1),
+#vue_main main ul li:nth-of-type(5n + 2),
+#vue_main main ul li:nth-of-type(5n + 3),
+#vue_main main ul li:nth-of-type(5n + 4) {
+  margin-right: 25px;
+}
+#vue_main main ul li {
+  width: 220px;
+  height: 376px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  float: left;
+}
+#vue_main main ul li section {
+  border: 1px solid #eeeeee;
+  height: 340px;
+}
+#vue_main main ul li section .img {
+  width: 218px;
+  height: 220px;
+}
+#vue_main main ul li section .img img {
+  height: 100%;
+  width: 100%;
+}
+#vue_main main ul li section .price {
+  font-size: 15px;
+  color: #ff0101;
+  margin-top: 6px;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 15px;
+}
+#vue_main main ul li section .goods_name {
+  font-size: 12px;
+  color: #7d7d7d;
+  line-height: 18px;
+  margin: 0 8px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+#vue_main main ul li section .pinjia {
+  height: 40px;
+  line-height: 40px;
+  margin: 0 8px;
+  margin-top: 4px;
+  font-size: 12px;
+  overflow: hidden;
+}
+#vue_main main ul li section .pinjia .left {
+  float: left;
+  color: #9a9a9a;
+}
+#vue_main main ul li section .pinjia .right {
+  float: right;
+  color: #83b738;
+}
+#vue_main main ul li .operation {
+  height: 34px;
+  line-height: 34px;
+  background: #f4f8fb;
+  padding: 0 8px;
+  overflow: hidden;
+  display: none;
+}
+#vue_main main ul li .operation .num {
+  float: left;
+  font-size: 9px;
+  width: 70px;
+  background: #fff;
+  height: 24px;
+  line-height: 20px;
+  display: flex;
+  text-align: center;
+  border: 1px solid #eeeeee;
+  color: #8c8c8c;
+  margin-top: 5px;
+}
+#vue_main main ul li .operation .num span {
+  display: block;
+  flex: 1;
+  vertical-align: middle;
+}
+#vue_main main ul li .operation .num .number {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+#vue_main main ul li .operation .buy {
+  float: right;
+  font-size: 12px;
+  width: 88px;
+  height: 24px;
+  line-height: 24px;
+  color: #fff;
+  background: #84b83a;
+  text-align: center;
+  margin-top: 5px;
+}

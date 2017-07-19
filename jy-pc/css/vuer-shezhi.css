@@ -1,0 +1,254 @@
+#vue-main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+#vue-main .vue-left {
+  width: 120px;
+  border: 1px solid #ccc;
+  padding-bottom: 20px;
+  float: left;
+}
+#vue-main .vue-left ul li {
+  border-bottom: 1px solid #ccc;
+  line-height: 30px;
+  font-size: 12px;
+}
+#vue-main .vue-left ul li p {
+  padding-left: 14px;
+}
+#vue-main .vue-left ul li p a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+#vue-main .vue-left ul li .left-li-one {
+  font-size: 16px;
+}
+#vue-main .vue-left ul li p:hover {
+  color: #95c357;
+}
+#vue-main .vue-left ul li .left-li-one:hover {
+  color: #333;
+  cursor: default;
+}
+#vue-main .vue-left ul .bgstyle {
+  background: #7BBB49;
+}
+#vue-main .vue-left ul .bgstyle a {
+  color: #fff;
+}
+#vue-main .vue-left ul li:last-of-type {
+  border-bottom: 0;
+}
+#vue-main .vue-right {
+  width: 1062px;
+  min-height: 700px;
+  float: right;
+  font-size: 14px;
+}
+#vue-main .vue-right .right-title {
+  border: 1px solid #ccc;
+  height: 46px;
+  line-height: 46px;
+  padding-left: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+#vue-main .vue-right .right-content {
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+#vue-main .vue-right .right-content .content-top {
+  border-bottom: 1px solid #ccc;
+  height: 50px;
+  background: #f4f8fb;
+}
+#vue-main .vue-right .right-content .content-top span {
+  display: inline-block;
+  margin: 13px 30px 0 16px;
+  border-bottom: 2px solid transparent;
+  padding: 0 8px 5px 8px;
+}
+#vue-main .vue-right .right-content .content-top .xinxi {
+  color: #95c357;
+  border-bottom: 2px solid #95c357;
+}
+#vue-main .vue-right .right-content .xinxi-cnt {
+  overflow: hidden;
+  padding: 44px 0 60px 40px;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li {
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li .xinxi-left {
+  display: inline-block;
+  width: 100px;
+  float: left;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li .img {
+  width: 88px;
+  height: 88px;
+  border: 2px solid #eee;
+  float: left;
+  position: relative;
+  margin-bottom: 30px;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li .img img {
+  width: 100%;
+  height: 100%;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li .img p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  background: rgba(10, 10, 10, 0.5);
+  color: #fff;
+  text-align: center;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li .xiaoname {
+  float: left;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li .xiaoname input {
+  width: 260px;
+  height: 25px;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li input[type="radio"] {
+  margin-left: 12px;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li #first-radio {
+  margin-left: 0;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li select {
+  width: 80px;
+  height: 25px;
+  margin-right: 12px;
+}
+#vue-main .vue-right .right-content .xinxi-cnt li button {
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  background: #95c357;
+  border: 0;
+  margin: 20px 0 0 100px;
+  font-size: 17px;
+  border-radius: 3px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt {
+  overflow: hidden;
+  padding: 30px 0 40px 30px;
+  display: none;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left {
+  width: 520px;
+  border-right: 1px solid #ccc;
+  float: left;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left .zhezhao {
+  width: 200px;
+  height: 36px;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 36px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left .zhezhao i {
+  color: #777;
+  margin-right: 8px;
+  font-size: 18px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left input[type="file"] {
+  background: red;
+  width: 200px;
+  height: 36px;
+  opacity: 0;
+  position: relative;
+  top: -36px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left .shuoming {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left .left-img {
+  width: 474px;
+  height: 237px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  text-align: center;
+  line-height: 237px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left .left-img img {
+  width: 134px;
+  height: 134px;
+  background: url(../img/img-bg.png) no-repeat;
+  border: 0;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left .tuijian {
+  margin: 12px 0;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left .tuijian-img {
+  width: 484px;
+  overflow: hidden;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left .tuijian-img li {
+  float: left;
+  margin: 0 10px 12px 0;
+  position: relative;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left .tuijian-img li:hover {
+  top: -5px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-left button {
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  background: #95c357;
+  border: 0;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 3px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-right {
+  width: 500px;
+  float: left;
+  padding-left: 40px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-right .right-top {
+  font-weight: 600;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-right .right-shuoming {
+  font-size: 14px;
+  color: #999;
+  margin: 16px 0 30px 0;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-right .right-img {
+  overflow: hidden;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-right .right-img li {
+  float: left;
+  margin-right: 80px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-right .right-img li p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 12px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-right .right-img .big-img img {
+  width: 100px;
+  height: 100px;
+  border: none;
+  background: url(../img/img-bg.png);
+  background-size: 100px;
+}
+#vue-main .vue-right .right-content .touxiang-cnt .cnt-right .right-img .small-img img {
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  background: url(../img/img-bg.png);
+  background-size: 50px;
+}

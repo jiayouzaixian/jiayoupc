@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>家有在线</title>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="icon" href="http://pc.t.jiayou9.com/img/logo1.png" mce_href="http://pc.t.jiayou9.com/img/logo1.png" type="image/x-icon" />
+	    <link rel="stylesheet" type="text/css" href="../../css/quanju.css"/>
+	    <link rel="stylesheet" href="../../css/vuer-shezhi.css" />
+	</head>
+	<body>
+		<header id="vuerCenter-header"></header>	
+        <section id="vue-main">
+        	<main class="vue-left">
+        		<ul>
+        			<li>
+        				<p class="left-li-one">我的交易</p>
+        				<p class="left-floor"><a href="vuer-myOrder.html">我的订单</a></p>
+        				<p class="left-floor"><a href="vuer-tuihuan.html">退换/售后</a></p>
+        				<p class="left-floor"><a href="vuer-youhui.html">我的优惠券</a></p>
+        				<p class="left-floor"><a href="vuer-myGuanzhu.html">我的关注</a></p>
+        				<p class="left-floor"><a href="vuer-message.html">消息</a></p>
+        			</li>
+        			<li>
+        				<p class="left-li-one">账户管理</p>
+        				<p class="left-floor bgstyle"><a href="vuer-shezhi.html">设置账户信息</a></p>
+        				<p class="left-floor"><a href="vuer-goodsAddress.html">管理收货地址</a></p>
+        			</li>
+        			<li>
+        				<p class="left-li-one">安全管理</p>
+        				<p class="left-floor"><a href="vuer-anquan.html">账户安全</a></p>
+        				<p class="left-floor"><a href="vuer-bangding.html">账户绑定</a></p>
+        			</li>
+        		</ul>
+        		
+        	</main>
+        	<main class="vue-right">
+        		<h2 class="right-title">个人信息</h2>
+        		<article class="right-content">
+        			<p class="content-top">
+        				<span class="xinxi">基本信息</span>
+        				<span class="touxiang">头像照片</span>
+        			</p>
+        			<ul class="xinxi-cnt">
+        				<li>
+        					<span class="xinxi-left">当前头像：</span>
+        					<div class="img">
+        						<img src="../../img/touxiang (1).png" alt="" />
+        						<p class="btm">编辑头像</p>
+        					</div>
+        				</li>
+        				<li>
+        					<span class="xinxi-left">用户名：</span>
+        					<p class="name">小泉</p>
+        				</li>
+        				<li>
+        					<span class="xinxi-left">昵称：</span>
+        					<div class="xiaoname">
+        						<input type="text" />
+        						<p>此昵称已存在</p>
+        					</div>
+        				</li>
+        				<li>
+        					<span class="xinxi-left">性别：</span>
+        					<input type="radio" name="radiobutton" value="radiobutton" checked id="first-radio">不告诉你
+							<input type="radio" name="radiobutton" value="radiobutton"> 男 
+							<input type="radio" name="radiobutton" value="radiobutton"> 女
+        				</li>
+        				<li>
+        					<span class="xinxi-left">出生年月：</span>
+        					<select id="date-sel-year" rel="年">
+        						<option selected="selected">年</option>
+        					</select>
+							<select id="date-sel-month" rel="月">
+								<option selected="selected">月</option>
+							</select>
+							<select id="date-sel-day" rel="日">
+								<option selected="selected">日</option>
+							</select> 
+        				</li>
+        				<li>
+        					<span class="xinxi-left"></span>
+        					<button>保存</button>
+        				</li>
+        				
+        			</ul>
+        			<div class="touxiang-cnt">
+        				 <div class="cnt-left">
+        				 	<p class="zhezhao"><i class="jy-iconfont icon-tupian"></i>选择您要上传的照片
+	        				 	<input type="file" id='file' onchange="fun()" >
+        				 	</p>
+        				 	<p class="shuoming">仅支持JPG、GIF、PNG、JPEG、BMP格式，文件小于4M</p>
+        				 	<div class="left-img">
+        				 		<img src="" alt="" id="show-img" />
+        				 	</div>
+        				 	<p class="tuijian">推荐头像</p>
+        				 	<ul class="tuijian-img">
+        				 		<li><img src="../../img/touxiang (1).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (2).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (3).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (4).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (5).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (6).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (7).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (8).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (9).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (10).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (11).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (12).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (13).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (14).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (15).png" alt="" /></li>
+        				 		<li><img src="../../img/touxiang (16).png" alt="" /></li>
+        				 	</ul>
+        				 	<button>保存</button>
+        				</div>
+        				<div class="cnt-right">
+        					<p class="right-top">效果预览</p>
+        					<p class="right-shuoming">您上传的图片会自动生成两种尺寸，请注意小尺寸的头像是否清晰</p>
+        					<ul class="right-img">
+        						<li class="big-img">
+        							<img src="" alt="" id="show-img2"/>
+        							<p>100*100像素</p>
+        						</li>
+        						<li class="small-img">
+        							<img src="" alt="" id="show-img3" />
+        							<p>50*50像素</p>
+        						</li>
+        					</ul>
+        				</div>
+        			</div>
+        		
+        		</article>
+        		
+        	</main>
+        	
+        </section>
+        <footer id="vuer-footer"></footer>
+	</body>
+	<script src="http://pc.t.jiayou9.com/js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://pc.t.jiayou9.com/js/year-month-day.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+//		这里是选择文件图片的路径
+		function fun() {
+			var r= new FileReader();
+			f=document.getElementById('file').files[0];
+			r.readAsDataURL(f);
+			r.onload=function  (e) {
+//			document.getElementById('show-img').src=this.result;
+			$("#show-img").attr("src",this.result)
+			$("#show-img2").attr("src",this.result)
+			$("#show-img3").attr("src",this.result)
+			};
+		}
+		$(document).ready(function() {
+			$("#vuerCenter-header").load("./vuer-header.html")
+			$("#vuer-footer").load("../footer.html")
+			
+			$("#vue-main .vue-right .right-content .content-top span").click(function(){
+				var idx = $(this).index();
+				$(this).css({'color':' #95c357','border-bottom': '2px solid #95c357'}).siblings("span").css({'color':'#333', 'border-bottom': '2px solid transparent'})
+				if(idx == 0){
+					$("#vue-main .vue-right .right-content .xinxi-cnt").show();
+					$("#vue-main .vue-right .right-content .touxiang-cnt").hide();
+				}else{
+					$("#vue-main .vue-right .right-content .xinxi-cnt").hide();
+					$("#vue-main .vue-right .right-content .touxiang-cnt").show();
+				}
+			})
+			
+//			下面推荐头像的点击滑过事件  
+			$("#vue-main .vue-right .right-content .touxiang-cnt .cnt-left .tuijian-img img").click(function(){
+				var route = $(this).attr("src");
+				$("#show-img").attr("src",route)
+				$("#show-img2").attr("src",route)
+				$("#show-img3").attr("src",route)
+				$(this).css("background-color", "rgba(10,10,10,.3)").parents("li").siblings("li").find("img").css("background","none")
+			})
+		})
+		$.date_picker({  
+		     YearSelector:  "#date-sel-year",  
+		     MonthSelector: "#date-sel-month",  
+		     DaySelector:   "#date-sel-day"  
+		}); 
+		
+				
+	</script>
+</html>
